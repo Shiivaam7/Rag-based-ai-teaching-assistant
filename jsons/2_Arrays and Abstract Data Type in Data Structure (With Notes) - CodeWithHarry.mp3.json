@@ -1,0 +1,516 @@
+{
+  "chunks": [
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 0.0,
+      "end": 10.5,
+      "text": " Guys, I had a friend who wanted to build a PC, so he came to me and asked that can you give me a blueprint to build a PC so that I can get a PC built from anyone because of that blueprint."
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 10.5,
+      "end": 25.2,
+      "text": " I want to do gaming and streaming, so I said, do one thing, buy your MSI Tomahawk B450 motherboard and along with that buy AMD Ryzen 3950 processor and along with that,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 25.2,
+      "end": 36.9,
+      "text": " don't get into the expensive graphics card, buy 1050 Ti, so I gave him this blueprint, but why am I telling you this, I am telling you this because the blueprint I gave him of a PC,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 36.9,
+      "end": 48.8,
+      "text": " with the help of that blueprint, he can go to any shop and build a PC from himself and I told him the main components of the PC, if he makes a mistake,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 48.8,
+      "end": 60.0,
+      "text": " then he will do a little and he will not be able to make a mistake if he follows the blueprint properly, so here I gave him a blueprint,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 60.0,
+      "end": 70.2,
+      "text": " let's say there were minimal requirements that this has to be installed in the PC and now with the help of this, he will make his PC build,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 71.2,
+      "end": 80.0,
+      "text": " now what does this PC build have to do with abstract data type, you may not even know what a PC build is, maybe you are a champion,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 80.0,
+      "end": 89.80000000000001,
+      "text": " the thing is I told him which processor to install, I told him which graphics card to install, I told him which motherboard to use,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 89.8,
+      "end": 101.2,
+      "text": " maybe I will tell him the RAM chips, that install this one, install Kingston or many other RAMs, leave that, but I gave him a blueprint,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 101.2,
+      "end": 109.9,
+      "text": " I told him that with the help of this blueprint, you can build a PC, the abstract data type is also a blueprint of this type,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 109.9,
+      "end": 121.9,
+      "text": " which tells the minimal requirement along with some operations, so here are some operations and along with that there are some minimal requirements,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 121.9,
+      "end": 131.1,
+      "text": " which follows the data type, so here I am writing minimal requirements, so abstract data type is a model of making a data structure,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 131.1,
+      "end": 142.29999999999998,
+      "text": " once I give abstract data type, so by looking at that abstract data type, anyone can write the implementation of this data structure and can make a data structure,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 142.29999999999998,
+      "end": 150.7,
+      "text": " and the data structure will be the actual implementation, so if I say abstract data type of arrays, then you can implement it in many ways with different programming languages,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 150.7,
+      "end": 162.29999999999998,
+      "text": " but I will give you some minimal requirements and some operations, so in the abstract data type, I will give you MRF, I will not give you MRF of tyre or bat,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 162.29999999999998,
+      "end": 177.7,
+      "text": " I will give you minimal required functionalities, and this may look a little confusing, functionality, it may look confusing because you will say that what is ADT,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 177.7,
+      "end": 188.1,
+      "text": " how did it come, just understand that the way I made this PC, I gave some minimal required functionality, that in this, there is streaming, gaming, there are some functionalities,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 188.1,
+      "end": 196.7,
+      "text": " and along with that I said that all these things should be there, after this, any person can make it by using a cable, can make it by using any kind of RAM,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 196.7,
+      "end": 207.1,
+      "text": " can make many implementations, can make many PC by using these components, similarly what is abstract data type, it tells you some minimal required functionality,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 207.1,
+      "end": 216.1,
+      "text": " it says that I want this, like you go to a carpenter, you say that I want a table, I want a table that can be adjusted, I can do coding while standing and also while sitting,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 216.1,
+      "end": 227.7,
+      "text": " rest is your choice, what you make, use iron, use wood, use plastic, use aluminium, use anything, it will work for me, but this is the minimum required functionality that I want,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 227.7,
+      "end": 239.7,
+      "text": " and some operations which you can define later, like you in that table, let us say you give an operation in it that open the drawer, so you will give an open operation in it,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 239.7,
+      "end": 248.7,
+      "text": " along with that you close the drawer, you will give an operation in it, let us understand this with the example of an array, and now we will talk about array ADT, so let me clear the board,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 248.7,
+      "end": 257.9,
+      "text": " if you are giving notes, good for you, but I have made notes, you can download from the description, everyone can download their own notes, I will delete this from here,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 257.9,
+      "end": 274.9,
+      "text": " now, and I will delete this, and along with that, we will read the array ADT, array as an abstract data type, ok, arrays as an abstract data type,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 274.9,
+      "end": 290.9,
+      "text": " by the way, what are arrays, you will get arrays in many programming languages, you will get arrays in C, C++, Java, in Python they are called as list, but arrays have some minimal functionalities,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 290.9,
+      "end": 305.9,
+      "text": " like you will say that I can get, there is a get method in it, and if I write get i, then I will get the element of the ith position, I can set any number on the ith position,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 305.9,
+      "end": 321.9,
+      "text": " I can make the value of index i num, along with that, get is done, set is done, and if I am making a custom data type, I am writing an implementation of an array, I can put some methods in it,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 321.9,
+      "end": 342.9,
+      "text": " like insert, delete, add, so many methods like this can be there, it will depend on the implementation, but the minimal functionality of the array is that you can get and set,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 342.9,
+      "end": 361.9,
+      "text": " and along with that, there can be a resize functionality, there are all these methods, or operations, which you can perform in arrays, so you can make your custom data type by using this blueprint, and it will depend on your implementation,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 361.9,
+      "end": 387.9,
+      "text": " like I will make it with structure, but if you are in C++, then you can make it with classes, now if you are making it with structure, then it will depend on your implementation, like when the size of the array is increasing, then how are you resizing it, if there is a resize method, are you copying all the elements, are you using any other strategy, are you using an auxiliary array, so all these things will depend on the implementation,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 387.9,
+      "end": 407.9,
+      "text": " so here in the array, I have defined the minimal required functionality of the abstract data type, and along with that, there can be many methods, there can be different operations, you can get all these in an array, now we can define all these operations and make our own array att,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 407.9,
+      "end": 426.9,
+      "text": " now what is the meaning of abstract, it means hiding details, this is very important, what is the meaning of abstraction, if you explain the meaning of abstraction in desi language, then it means you eat mangoes, don't count the lumps, what is the meaning of abstraction, it means you eat mangoes, don't count the lumps,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 426.9,
+      "end": 455.9,
+      "text": " it means you don't go on the implementation details, you just go on usage, you use it, the implementation is hidden, all these things will be hidden, we will say you use the insert, insert in the array, it doesn't mean that we have made a structure in the insert, or made a pointer, or we have made something else in it, that is our tension, you use it,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 456.9,
+      "end": 485.9,
+      "text": " you take a mobile phone, when you have a phone, do you open it and see which page is there, which processor is there, yes you read in it, there is this processor in the box, but it is not that you open the page and see, because the mobile phone people will tell you, talk, run Instagram, run WhatsApp, run Facebook, watch YouTube, watch Code with Arya's video, do whatever you want to do, but all those details are abstracted from you, now what is the code of YouTube app, what do you know, it is abstracted, it is hidden, so hiding the details,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 486.9,
+      "end": 514.9,
+      "text": " what has happened, it is called abstraction, so this is abstraction, and abstract data type, I dropped the pen, so this is abstract data type, so here we have read arrays ADT, now let's discuss what is an array, I will remove the methods, I will clear the board, and I will tell you what is an array,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 516.9,
+      "end": 543.9,
+      "text": " so what is an array, it is a collection of elements accessible by an index, I have written in notes, so don't take tension, accessible by an index, by an index, I will write fast, I have made good writing in notes,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 543.9,
+      "end": 570.9,
+      "text": " so don't think that notes are in this writing, notes are not in this writing, I am writing fast to make you understand, so let's see what is an array, now I told you that the memory layout of a C program, there is a code section, then what happens here, we have initialized and uninitialized segment, I will not talk about that, then here is a stack, and here is a heap,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 571.9,
+      "end": 592.9,
+      "text": " so in a stack, there are variables of function, so you have called a function, it will have a stack, if you have made an array in it, then that array will be here, and you will get memory in this stack, but if you make an array in heap, which is a resource,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 592.9,
+      "end": 618.9,
+      "text": " then you will get memory in heap, so you said that give me an array of 10 elements, now here 0, 1, 2, 3, it is going to 9, and index is an array, in most of the programming languages, it starts from 0, there is a reason for that, because when we start from 0, we get some advantage, I will not go on that, but you search on the net, there is a paper of rickstrass, which you can see, they have explained how to start from 1, what will happen if we start from 0,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 618.9,
+      "end": 647.9,
+      "text": " why calculations will be easy when we will try to access the index, I will not go on all that, I want to tell you what is an array, now suppose you request an array here or here in heap, or you make it in stack, then you get contiguous block of memory, that means if its address is 50, or 10, and I am assuming the integer is 4 bytes, it is a 4 byte integer, it is 2 bytes, but I am assuming 4 bytes, it will depend on the architecture,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 648.9,
+      "end": 677.9,
+      "text": " it will be 14, 18, 22, 26, it will be like this, it means that 4 bytes will have an integer, here it is 6, 4 bytes will have an integer, and 4 bytes will have an integer, now suppose it is 26, it will be 30, and with that it will be 34, and from here the second memory location will start, which I do not have, it is 38,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 678.9,
+      "end": 699.9,
+      "text": " and the second memory will start here, remember one thing, you cannot resize the array, because if you resize it, then you will need this memory, now suppose you made this array, compiler will say that from 10 to 38, this block of memory is yours, and you will get it,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 699.9,
+      "end": 728.9,
+      "text": " now suppose you go to the shopkeeper, and say give me this toffee, shopkeeper says take it, and you go, and you feel that this toffee is not good, and you say return it, and he says what is this, I am sitting here to return it, he gets angry, so here what happens is that the sold goods are not returned, so here if you say that I want a bigger one, then you will not get it, why you will not get it,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 729.9,
+      "end": 757.9,
+      "text": " because when you request the memory of 38, then it is possible that the compiler has given this memory to some other application, and it is doing its work with this memory, or in your same program, it has allocated the variable of this memory, so now you are saying that I want to increase it, so you cannot increase it in the array, you cannot increase it in the array, you can increase it in the linked list, we will talk about that later, but you cannot increase it in this,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 757.9,
+      "end": 786.9,
+      "text": " because you have asked for the memory up to 38, what do you know about the memory after that, who is using it, who is not using it, it will not be used in every case, so the compiler cannot even guarantee to increase it, that I will increase it with guarantee, I will resize it, so what you have to do for resizing, the content of this array is 1, 2, 8, 12, and here it is 8, 36, 42, so all this content of the array, you will have to copy it in a new array, if you want to request a big array, then you will have to copy all this content in it one by one,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 787.9,
+      "end": 816.9,
+      "text": " you can resize it like this, you can resize it like this, now if you are making an array in heap, then you can make it, if you are making it in C++, then you can use the new operator, if you are making it in C, then you can make it like this, instar malloc, by the way if you have not seen my C video, I have put a 15 hour video with notes, see that, because all these things are there in it, tell me very easily, I have told all these things with practice, if you skip the practice set, then it will be done in 6 hours also,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 817.9,
+      "end": 846.9,
+      "text": " see the video, I have done a lot of practice in it, so it took some time, I have made a 15 hour video in it, malloc, and here I am doing 10 into size of int, we write it like this, 10 multiplied by which is a star, size of, size of operator and int, means whatever the size of int is, so assume I have an A pointer, an instar A, I have an instar A here, and I have made it point from this,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 847.9,
+      "end": 868.9,
+      "text": " so I will get 0 to 9 indexes, and after that I want to expand this array, and I want from 0 to 19, means I have to store 20 elements in my array, so what will happen, to store 20 elements in the array,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 868.9,
+      "end": 897.9,
+      "text": " I will make another pointer, I will say int star B is equal to int star malloc 20 into size of int, I will do like this, and then I will write A is equal to B, and I will make this pointer point in this, in this way I can resize, I cannot resize directly, I cannot increase this, I have come here, so that these blocks can be found, in this way array can be resized, so the array cannot be resized, now why to use the array, why I have made an array, let's see this also,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 898.9,
+      "end": 913.9,
+      "text": " I have made this array, because once I have these 10 addresses, you will say tell me what will be the 4th element, so I will count here, and tell me it is at a distance of 4, so I will take the 4th element in one calculation, means big of one time, listen to this carefully,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 913.9,
+      "end": 939.9,
+      "text": " I will use 10 and I will say 10 plus 4 into i, this address will be of ith integer, let's check if I have written it correctly or not, if I make i equal to 0, then 10 will come, if I make i equal to 1, then 14 will come, now I will write 0, 1, 2, 3, 4, 5, 6,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 939.9,
+      "end": 962.9,
+      "text": " now suppose I want the address of 5th element, means I want 30, so what I will do, I will put 5 here, 5 becomes 20, 20 becomes 10, 30, so I will get the address of this one directly and I will be able to access it, so faster access is there in array, not that if I want to access this, then I am coming from here, by doing this,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 962.9,
+      "end": 989.9,
+      "text": " so the traversal, if I would have done it by making a variable or linguist or something else, that could have been done in big of n, now my work is happening in big of 1, oops, my work is happening in big of 1, in constant time, I can access the elements of array in big of 1 time, in constant time,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 990.9,
+      "end": 1016.9,
+      "text": " so this is very beneficial for me that I can access faster, this get method will run very fast and set method will run very fast because I can reach wherever I want, I will directly say that the value on this address, I will dereference it and make its value num, I can change the value very fast, but there is a mistake here,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 1016.9,
+      "end": 1040.9,
+      "text": " now what is the mistake, I will tell you, the mistake is that if I have to insert an element here, suppose I want to insert 5 after 8, so if there is not sufficient size in this array, then I will have to make another array, I will have to copy these elements here, then after that I will have to insert a new element, then I will have to copy 36 of 42 here,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 1040.9,
+      "end": 1068.9,
+      "text": " then I will have to make a new array, this insertion is becoming costly for me, along with that if I want to delete, suppose I want that there should not be 8 elements in this, then this deletion will also become costly for me, because I will have to delete these elements, it is possible that I am deleting this first element and the elements remaining in my array to be deleted are n,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 1068.9,
+      "end": 1089.9,
+      "text": " so it will take a big of n time to delete them, and after that one place will be wasted, suppose we are not worrying about that wastage, but after that also you think that I am deleting so many elements, so there the operation will be costly for me, so we will do one thing, we will write get and set directly, this programming language by default provides you,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 1090.9,
+      "end": 1115.9,
+      "text": " if you have made an array in C language, then you can implement get method by using array, and set method is same, so get and set is very easy in C language, but we will see some other operations, we will implement this array addity with the help of structure, because it is our choice how we will build our PC, this is our abstract data type, we will make it as per our choice, and we will give many other operations in this,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 1116.9,
+      "end": 1142.9,
+      "text": " so we will implement this with the help of structure, I hope you understood ADT, and if you are using ADT then you can use it easily, and you will not face any problem, if you want to add two arrays, in C language you will have to write function, program, and add it, but I will give this facility to user in my ADT that he can use my add method, and can add many arrays directly, so we will implement this with the help of structure,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 1142.9,
+      "end": 1161.9,
+      "text": " I hope you understood ADT, and you understood why we use array, faster retrieval, faster updation, and where is the problem in array, it is in deletion time and insertion time, if I want to insert an element, then it will be costly, because I will have to scratch, these are all contiguous memory,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 1161.9,
+      "end": 1190.9,
+      "text": " if you want to send 8 to end, then it will not work like this, I have to maintain order and then insertion, there I will have a problem, and if I need more space, then I will have to make another array and copy everything in it, so that's why we use array, because it has some advantages and disadvantages, so it will depend on use case, when I will use array and when I will not,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 1191.9,
+      "end": 1215.9,
+      "text": " so it will depend on use case, and it will come from practice, and I will make you do that, now I want to say one thing, these notes of array, I will give you, I have written ADT and array very well, now I will show you notes, and along with that, you have not accessed the playlist, if you have accessed the data structure, and along with that I am putting a lot of content on Instagram, so if you have not followed on Instagram, then you can follow,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 1245.9,
+      "end": 1271.9,
+      "text": " now I have defined abstract data type, and array, so I have defined it very well, just remember that abstract data type means, in this abstraction, details are being hidden from you, and you are being given convenience to do all these operations, now there is some minimal functionality, like get, set, all these things I need in it,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 1272.9,
+      "end": 1293.9,
+      "text": " but here, along with minimal functionality, there are some set of operations, which will be in this abstract data type, now I have defined array as an ADT, its implementation can be done in different programming languages, array ADT holds collection of elements, it can be float, it can be int, it can be classes in C++, it can be structure in C language,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 1293.9,
+      "end": 1319.9,
+      "text": " it means similar elements should be there, items should be similar, it is not one int and one float, I have told you in array, if you do not know array in C language, then I will show you which video you have to watch, I have made a 15 hour C language video, you have to watch it, everything will be clear in it, you will learn C with 15 hours and notes, and everything I have told in it,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 1319.9,
+      "end": 1344.9,
+      "text": " I will say one thing, it is 15 hours, because I have done a lot of practice programs and two projects in it, it has taken a lot of time, otherwise, if you see the concept, I have done time stamping, I have done time stamping, if I open this video in the description, then you will get time stamp, so you read chapter by chapter according to time stamp, skip the practice set, and your work will be done in that too, if you have less time,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 1344.9,
+      "end": 1373.9,
+      "text": " so we have seen all these things on the board, one more thing I will tell you about static and dynamic arrays, static arrays are those whose size cannot be changed, but dynamic arrays can be changed, now many of you will say that we have talked about the size of the array, it cannot be changed in C language, but we can make an ADT, we can make an abstract data type, which will implement this functionality, the functionality of dynamic arrays, how will it be in C language, you copy the old elements in new elements,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 1374.9,
+      "end": 1402.9,
+      "text": " we can make an abstract data type of dynamic array, which will implement this feature, so here I have given a quick quiz to code all the operations, which I have made this ADT, max, min, search, insert, append, to implement all these operations, but we will do it in a while, I have also told you in memory representation that the array can be accessed and updated in one time, because only one calculation has to be done, it will take constant time,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 1404.9,
+      "end": 1432.9,
+      "text": " so you want to access the element from there, it depends on you, what you want to do, I have written here index 0, 1, 2, 3, continuous memory location, so if this is 10, then this is 14, then this is 18, then this is 22, then this is 24, there are 4 bytes, in 1 byte there are 8 bits, in 1 bit there is 0 or 1, so let's talk in the language of computer 0 and 1, I don't want to go into much detail here, if you want to know such details,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 1434.9,
+      "end": 1463.9,
+      "text": " I have made a separate playlist of C language, so videos are going to be added here, so you can see this, if you really want to know all these things, binary to decimal, decimal to binary, bit operations and different types of practice programs of C language, so I have made a separate playlist for that, so you can see this, I will add many videos in this, but if you want to stick to data structures, then I will just say this, you keep following this course, and you will definitely like it, you will get benefit, so that's it for this video,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 1464.9,
+      "end": 1493.9,
+      "text": " you must have accessed this playlist of data structure, and if you haven't accessed it, then click here to bookmark or click here to save, and I want to request you that please, I am working very hard in this course, if possible, please share, and I don't think it takes time to share, simply put the link in your whatsapp group, school, college, or if you work there, just put the link there, if you do this, then it will be very helpful to me, and I will bring many such courses for you for free,"
+    },
+    {
+      "number": "2",
+      "title": "Arrays and Abstract Data Type in Data Structure (With Notes) - CodeWithHarry",
+      "start": 1494.9,
+      "end": 1506.9,
+      "text": " I am planning many things, if you want to make these things easy for me, then please share these videos as much as possible, thank you so much guys for watching this video, and I will see you next time."
+    }
+  ],
+  "text": " Guys, I had a friend who wanted to build a PC, so he came to me and asked that can you give me a blueprint to build a PC so that I can get a PC built from anyone because of that blueprint. I want to do gaming and streaming, so I said, do one thing, buy your MSI Tomahawk B450 motherboard and along with that buy AMD Ryzen 3950 processor and along with that, don't get into the expensive graphics card, buy 1050 Ti, so I gave him this blueprint, but why am I telling you this, I am telling you this because the blueprint I gave him of a PC, with the help of that blueprint, he can go to any shop and build a PC from himself and I told him the main components of the PC, if he makes a mistake, then he will do a little and he will not be able to make a mistake if he follows the blueprint properly, so here I gave him a blueprint, let's say there were minimal requirements that this has to be installed in the PC and now with the help of this, he will make his PC build, now what does this PC build have to do with abstract data type, you may not even know what a PC build is, maybe you are a champion, the thing is I told him which processor to install, I told him which graphics card to install, I told him which motherboard to use, maybe I will tell him the RAM chips, that install this one, install Kingston or many other RAMs, leave that, but I gave him a blueprint, I told him that with the help of this blueprint, you can build a PC, the abstract data type is also a blueprint of this type, which tells the minimal requirement along with some operations, so here are some operations and along with that there are some minimal requirements, which follows the data type, so here I am writing minimal requirements, so abstract data type is a model of making a data structure, once I give abstract data type, so by looking at that abstract data type, anyone can write the implementation of this data structure and can make a data structure, and the data structure will be the actual implementation, so if I say abstract data type of arrays, then you can implement it in many ways with different programming languages, but I will give you some minimal requirements and some operations, so in the abstract data type, I will give you MRF, I will not give you MRF of tyre or bat, I will give you minimal required functionalities, and this may look a little confusing, functionality, it may look confusing because you will say that what is ADT, how did it come, just understand that the way I made this PC, I gave some minimal required functionality, that in this, there is streaming, gaming, there are some functionalities, and along with that I said that all these things should be there, after this, any person can make it by using a cable, can make it by using any kind of RAM, can make many implementations, can make many PC by using these components, similarly what is abstract data type, it tells you some minimal required functionality, it says that I want this, like you go to a carpenter, you say that I want a table, I want a table that can be adjusted, I can do coding while standing and also while sitting, rest is your choice, what you make, use iron, use wood, use plastic, use aluminium, use anything, it will work for me, but this is the minimum required functionality that I want, and some operations which you can define later, like you in that table, let us say you give an operation in it that open the drawer, so you will give an open operation in it, along with that you close the drawer, you will give an operation in it, let us understand this with the example of an array, and now we will talk about array ADT, so let me clear the board, if you are giving notes, good for you, but I have made notes, you can download from the description, everyone can download their own notes, I will delete this from here, now, and I will delete this, and along with that, we will read the array ADT, array as an abstract data type, ok, arrays as an abstract data type, by the way, what are arrays, you will get arrays in many programming languages, you will get arrays in C, C++, Java, in Python they are called as list, but arrays have some minimal functionalities, like you will say that I can get, there is a get method in it, and if I write get i, then I will get the element of the ith position, I can set any number on the ith position, I can make the value of index i num, along with that, get is done, set is done, and if I am making a custom data type, I am writing an implementation of an array, I can put some methods in it, like insert, delete, add, so many methods like this can be there, it will depend on the implementation, but the minimal functionality of the array is that you can get and set, and along with that, there can be a resize functionality, there are all these methods, or operations, which you can perform in arrays, so you can make your custom data type by using this blueprint, and it will depend on your implementation, like I will make it with structure, but if you are in C++, then you can make it with classes, now if you are making it with structure, then it will depend on your implementation, like when the size of the array is increasing, then how are you resizing it, if there is a resize method, are you copying all the elements, are you using any other strategy, are you using an auxiliary array, so all these things will depend on the implementation, so here in the array, I have defined the minimal required functionality of the abstract data type, and along with that, there can be many methods, there can be different operations, you can get all these in an array, now we can define all these operations and make our own array att, now what is the meaning of abstract, it means hiding details, this is very important, what is the meaning of abstraction, if you explain the meaning of abstraction in desi language, then it means you eat mangoes, don't count the lumps, what is the meaning of abstraction, it means you eat mangoes, don't count the lumps, it means you don't go on the implementation details, you just go on usage, you use it, the implementation is hidden, all these things will be hidden, we will say you use the insert, insert in the array, it doesn't mean that we have made a structure in the insert, or made a pointer, or we have made something else in it, that is our tension, you use it, you take a mobile phone, when you have a phone, do you open it and see which page is there, which processor is there, yes you read in it, there is this processor in the box, but it is not that you open the page and see, because the mobile phone people will tell you, talk, run Instagram, run WhatsApp, run Facebook, watch YouTube, watch Code with Arya's video, do whatever you want to do, but all those details are abstracted from you, now what is the code of YouTube app, what do you know, it is abstracted, it is hidden, so hiding the details, what has happened, it is called abstraction, so this is abstraction, and abstract data type, I dropped the pen, so this is abstract data type, so here we have read arrays ADT, now let's discuss what is an array, I will remove the methods, I will clear the board, and I will tell you what is an array, so what is an array, it is a collection of elements accessible by an index, I have written in notes, so don't take tension, accessible by an index, by an index, I will write fast, I have made good writing in notes, so don't think that notes are in this writing, notes are not in this writing, I am writing fast to make you understand, so let's see what is an array, now I told you that the memory layout of a C program, there is a code section, then what happens here, we have initialized and uninitialized segment, I will not talk about that, then here is a stack, and here is a heap, so in a stack, there are variables of function, so you have called a function, it will have a stack, if you have made an array in it, then that array will be here, and you will get memory in this stack, but if you make an array in heap, which is a resource, then you will get memory in heap, so you said that give me an array of 10 elements, now here 0, 1, 2, 3, it is going to 9, and index is an array, in most of the programming languages, it starts from 0, there is a reason for that, because when we start from 0, we get some advantage, I will not go on that, but you search on the net, there is a paper of rickstrass, which you can see, they have explained how to start from 1, what will happen if we start from 0, why calculations will be easy when we will try to access the index, I will not go on all that, I want to tell you what is an array, now suppose you request an array here or here in heap, or you make it in stack, then you get contiguous block of memory, that means if its address is 50, or 10, and I am assuming the integer is 4 bytes, it is a 4 byte integer, it is 2 bytes, but I am assuming 4 bytes, it will depend on the architecture, it will be 14, 18, 22, 26, it will be like this, it means that 4 bytes will have an integer, here it is 6, 4 bytes will have an integer, and 4 bytes will have an integer, now suppose it is 26, it will be 30, and with that it will be 34, and from here the second memory location will start, which I do not have, it is 38, and the second memory will start here, remember one thing, you cannot resize the array, because if you resize it, then you will need this memory, now suppose you made this array, compiler will say that from 10 to 38, this block of memory is yours, and you will get it, now suppose you go to the shopkeeper, and say give me this toffee, shopkeeper says take it, and you go, and you feel that this toffee is not good, and you say return it, and he says what is this, I am sitting here to return it, he gets angry, so here what happens is that the sold goods are not returned, so here if you say that I want a bigger one, then you will not get it, why you will not get it, because when you request the memory of 38, then it is possible that the compiler has given this memory to some other application, and it is doing its work with this memory, or in your same program, it has allocated the variable of this memory, so now you are saying that I want to increase it, so you cannot increase it in the array, you cannot increase it in the array, you can increase it in the linked list, we will talk about that later, but you cannot increase it in this, because you have asked for the memory up to 38, what do you know about the memory after that, who is using it, who is not using it, it will not be used in every case, so the compiler cannot even guarantee to increase it, that I will increase it with guarantee, I will resize it, so what you have to do for resizing, the content of this array is 1, 2, 8, 12, and here it is 8, 36, 42, so all this content of the array, you will have to copy it in a new array, if you want to request a big array, then you will have to copy all this content in it one by one, you can resize it like this, you can resize it like this, now if you are making an array in heap, then you can make it, if you are making it in C++, then you can use the new operator, if you are making it in C, then you can make it like this, instar malloc, by the way if you have not seen my C video, I have put a 15 hour video with notes, see that, because all these things are there in it, tell me very easily, I have told all these things with practice, if you skip the practice set, then it will be done in 6 hours also, see the video, I have done a lot of practice in it, so it took some time, I have made a 15 hour video in it, malloc, and here I am doing 10 into size of int, we write it like this, 10 multiplied by which is a star, size of, size of operator and int, means whatever the size of int is, so assume I have an A pointer, an instar A, I have an instar A here, and I have made it point from this, so I will get 0 to 9 indexes, and after that I want to expand this array, and I want from 0 to 19, means I have to store 20 elements in my array, so what will happen, to store 20 elements in the array, I will make another pointer, I will say int star B is equal to int star malloc 20 into size of int, I will do like this, and then I will write A is equal to B, and I will make this pointer point in this, in this way I can resize, I cannot resize directly, I cannot increase this, I have come here, so that these blocks can be found, in this way array can be resized, so the array cannot be resized, now why to use the array, why I have made an array, let's see this also, I have made this array, because once I have these 10 addresses, you will say tell me what will be the 4th element, so I will count here, and tell me it is at a distance of 4, so I will take the 4th element in one calculation, means big of one time, listen to this carefully, I will use 10 and I will say 10 plus 4 into i, this address will be of ith integer, let's check if I have written it correctly or not, if I make i equal to 0, then 10 will come, if I make i equal to 1, then 14 will come, now I will write 0, 1, 2, 3, 4, 5, 6, now suppose I want the address of 5th element, means I want 30, so what I will do, I will put 5 here, 5 becomes 20, 20 becomes 10, 30, so I will get the address of this one directly and I will be able to access it, so faster access is there in array, not that if I want to access this, then I am coming from here, by doing this, so the traversal, if I would have done it by making a variable or linguist or something else, that could have been done in big of n, now my work is happening in big of 1, oops, my work is happening in big of 1, in constant time, I can access the elements of array in big of 1 time, in constant time, so this is very beneficial for me that I can access faster, this get method will run very fast and set method will run very fast because I can reach wherever I want, I will directly say that the value on this address, I will dereference it and make its value num, I can change the value very fast, but there is a mistake here, now what is the mistake, I will tell you, the mistake is that if I have to insert an element here, suppose I want to insert 5 after 8, so if there is not sufficient size in this array, then I will have to make another array, I will have to copy these elements here, then after that I will have to insert a new element, then I will have to copy 36 of 42 here, then I will have to make a new array, this insertion is becoming costly for me, along with that if I want to delete, suppose I want that there should not be 8 elements in this, then this deletion will also become costly for me, because I will have to delete these elements, it is possible that I am deleting this first element and the elements remaining in my array to be deleted are n, so it will take a big of n time to delete them, and after that one place will be wasted, suppose we are not worrying about that wastage, but after that also you think that I am deleting so many elements, so there the operation will be costly for me, so we will do one thing, we will write get and set directly, this programming language by default provides you, if you have made an array in C language, then you can implement get method by using array, and set method is same, so get and set is very easy in C language, but we will see some other operations, we will implement this array addity with the help of structure, because it is our choice how we will build our PC, this is our abstract data type, we will make it as per our choice, and we will give many other operations in this, so we will implement this with the help of structure, I hope you understood ADT, and if you are using ADT then you can use it easily, and you will not face any problem, if you want to add two arrays, in C language you will have to write function, program, and add it, but I will give this facility to user in my ADT that he can use my add method, and can add many arrays directly, so we will implement this with the help of structure, I hope you understood ADT, and you understood why we use array, faster retrieval, faster updation, and where is the problem in array, it is in deletion time and insertion time, if I want to insert an element, then it will be costly, because I will have to scratch, these are all contiguous memory, if you want to send 8 to end, then it will not work like this, I have to maintain order and then insertion, there I will have a problem, and if I need more space, then I will have to make another array and copy everything in it, so that's why we use array, because it has some advantages and disadvantages, so it will depend on use case, when I will use array and when I will not, so it will depend on use case, and it will come from practice, and I will make you do that, now I want to say one thing, these notes of array, I will give you, I have written ADT and array very well, now I will show you notes, and along with that, you have not accessed the playlist, if you have accessed the data structure, and along with that I am putting a lot of content on Instagram, so if you have not followed on Instagram, then you can follow, now I have defined abstract data type, and array, so I have defined it very well, just remember that abstract data type means, in this abstraction, details are being hidden from you, and you are being given convenience to do all these operations, now there is some minimal functionality, like get, set, all these things I need in it, but here, along with minimal functionality, there are some set of operations, which will be in this abstract data type, now I have defined array as an ADT, its implementation can be done in different programming languages, array ADT holds collection of elements, it can be float, it can be int, it can be classes in C++, it can be structure in C language, it means similar elements should be there, items should be similar, it is not one int and one float, I have told you in array, if you do not know array in C language, then I will show you which video you have to watch, I have made a 15 hour C language video, you have to watch it, everything will be clear in it, you will learn C with 15 hours and notes, and everything I have told in it, I will say one thing, it is 15 hours, because I have done a lot of practice programs and two projects in it, it has taken a lot of time, otherwise, if you see the concept, I have done time stamping, I have done time stamping, if I open this video in the description, then you will get time stamp, so you read chapter by chapter according to time stamp, skip the practice set, and your work will be done in that too, if you have less time, so we have seen all these things on the board, one more thing I will tell you about static and dynamic arrays, static arrays are those whose size cannot be changed, but dynamic arrays can be changed, now many of you will say that we have talked about the size of the array, it cannot be changed in C language, but we can make an ADT, we can make an abstract data type, which will implement this functionality, the functionality of dynamic arrays, how will it be in C language, you copy the old elements in new elements, we can make an abstract data type of dynamic array, which will implement this feature, so here I have given a quick quiz to code all the operations, which I have made this ADT, max, min, search, insert, append, to implement all these operations, but we will do it in a while, I have also told you in memory representation that the array can be accessed and updated in one time, because only one calculation has to be done, it will take constant time, so you want to access the element from there, it depends on you, what you want to do, I have written here index 0, 1, 2, 3, continuous memory location, so if this is 10, then this is 14, then this is 18, then this is 22, then this is 24, there are 4 bytes, in 1 byte there are 8 bits, in 1 bit there is 0 or 1, so let's talk in the language of computer 0 and 1, I don't want to go into much detail here, if you want to know such details, I have made a separate playlist of C language, so videos are going to be added here, so you can see this, if you really want to know all these things, binary to decimal, decimal to binary, bit operations and different types of practice programs of C language, so I have made a separate playlist for that, so you can see this, I will add many videos in this, but if you want to stick to data structures, then I will just say this, you keep following this course, and you will definitely like it, you will get benefit, so that's it for this video, you must have accessed this playlist of data structure, and if you haven't accessed it, then click here to bookmark or click here to save, and I want to request you that please, I am working very hard in this course, if possible, please share, and I don't think it takes time to share, simply put the link in your whatsapp group, school, college, or if you work there, just put the link there, if you do this, then it will be very helpful to me, and I will bring many such courses for you for free, I am planning many things, if you want to make these things easy for me, then please share these videos as much as possible, thank you so much guys for watching this video, and I will see you next time."
+}

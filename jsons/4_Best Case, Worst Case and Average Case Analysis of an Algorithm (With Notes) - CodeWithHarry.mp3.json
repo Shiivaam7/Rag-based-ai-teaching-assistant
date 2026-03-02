@@ -1,0 +1,271 @@
+{
+  "chunks": [
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 0.0,
+      "end": 8.8,
+      "text": " Guys, sometimes in your daily life, it is very good with you, like suppose you didn't prepare for the exam and your exam got cancelled"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 8.8,
+      "end": 15.0,
+      "text": " and sometimes you feel bad with it, like suppose you didn't prepare and the same day the surprise test was done"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 15.0,
+      "end": 21.8,
+      "text": " Similarly, there is a lot of such thing in the life of the algorithm, like sometimes it gets such an input"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 21.8,
+      "end": 26.0,
+      "text": " in which it says that today it was fun, I solved it in big O of 1"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 26.0,
+      "end": 36.0,
+      "text": " sometimes it gets such an input that it gets worried about its life, like how did I get this input, I have to do so much work for it"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 36.0,
+      "end": 47.0,
+      "text": " Similarly, to define the algorithm, to define these events in the life of the algorithm, there is a best case, worst case and expected case"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 47.0,
+      "end": 52.0,
+      "text": " What is all this and why is all this and how is all this, we will see in today's video"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 52.0,
+      "end": 58.0,
+      "text": " Along with this, I have packed one more thing in this video, the definition of log, if you have seen this video till the end"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 58.0,
+      "end": 65.0,
+      "text": " then you will know what is this log, you must have read log m to the power n is equal to n log m log log"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 65.0,
+      "end": 70.0,
+      "text": " but what is this log, today's video will also clear this thing very well, what is log"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 70.0,
+      "end": 73.0,
+      "text": " So if you have seen this video completely, then I can take the guarantee of this"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 73.0,
+      "end": 79.0,
+      "text": " But I want to explain to you primarily the best case, worst case and expected case"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 79.0,
+      "end": 85.0,
+      "text": " So first of all, I would like to take an example of an algorithm, I will write algo 1 now"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 85.0,
+      "end": 94.0,
+      "text": " What is an algorithm, some steps to solve a problem, we saw this very early in the course"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 94.0,
+      "end": 102.0,
+      "text": " Now what will I do here, if this algo 1 does something, I will make an array, I will say that I want an array, what does this array do"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 102.0,
+      "end": 111.0,
+      "text": " First of all, what is in this array, there are some numbers in this array, let's say 1, 2, 3, 9, 24"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 111.0,
+      "end": 121.0,
+      "text": " And let's say this is 1 and 3, means any number, do not confuse it, not 1, 2, 3, 4, it is a number in the increasing order"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 121.0,
+      "end": 128.0,
+      "text": " This is a sorted array, I will put its name, your name is kept, your parents, I will put its name"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 128.0,
+      "end": 137.0,
+      "text": " First of all, I will write this sorted array and I am keeping its name as arr, what is its name, arr"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 137.0,
+      "end": 146.0,
+      "text": " Now 1, 5, 7, 9, 24, there are numbers in this, these numbers are in the increasing order, see for yourself"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 146.0,
+      "end": 151.0,
+      "text": " If you know a little bit of mathematics, then you will be able to find out that these numbers are written in the increasing order"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 152.0,
+      "end": 166.0,
+      "text": " Now I say that I will give a number a, what will I give, I will give a number a and I would like you to tell me that is this number present in this array or not"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 166.0,
+      "end": 177.0,
+      "text": " Now if the value of a is 8, then what will be your answer, yes, means 1, if the value of a, sorry your answer will be 9, because it is not there"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 178.0,
+      "end": 190.0,
+      "text": " If the value of a is 9, then what will be the answer, the answer will be 0, 1, pay attention here, so the answer of this will be 1, because 9 is present in it"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 190.0,
+      "end": 202.0,
+      "text": " You people pay attention here, you will have to pay full attention, this course is like this, this video is like this, this topic is like this, a is 8, if not present then 0, if present then 1 and so on"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 202.0,
+      "end": 216.0,
+      "text": " So I can run this algorithm for any value of a and I will expect from this algorithm that a algorithm, a algorithm tell me that is this number present in this array or not"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 216.0,
+      "end": 226.0,
+      "text": " Algorithm will say, ok, I will tell you, so how will it tell, now it will have to do something, there is no magician in the algorithm, there is no magician, so I will tell you what it will do"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 226.0,
+      "end": 242.0,
+      "text": " Algorithm is a very innocent person, like there are some kids in the street, when cricket is going on, you make them field, and when they play, you make them pole, so that kind of algorithm, so it is a very simple person, does not use much brain"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 242.0,
+      "end": 261.0,
+      "text": " So what will it do, it will say, ok, if I have to tell whether a is present in this array or not, so what I will do, I will start comparing it with all the elements one by one, I will compare it with this, then I will compare it with this, then I will compare it with this and I will compare a with this"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 261.0,
+      "end": 285.0,
+      "text": " Till I do not compare with all, this algorithm will say that I will keep comparing, ok, so if its size is n, if the size of the array is n, ok, listen to me carefully, a little brain will be applied here, if the size of the array is n, then how much comparison will this algorithm do, tell me, it will do n comparisons"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 285.0,
+      "end": 314.0,
+      "text": " And when will it do n comparisons, when it will not get that number, it may get the number in the second comparison, it may get the number in the third comparison, if it gets the number in the array, then it will stop there and tell that yes, the number is present, ok, so it will tell the number, now here it is comparing one by one with everyone, now is this the best way to do this, obviously not, because algorithm is a very simple person, who does not have much brain, so it is comparing everything with numbers"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 315.0,
+      "end": 335.0,
+      "text": " I have written 1 here, but if luck is going on in algorithm 1, if the luck is going well, its luck is going well, then what will happen, that it will get the number in the first element here, if it is lucky algorithm, it will get a equal to 1"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 335.0,
+      "end": 336.4,
+      "text": " A is equal to 1"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 336.6,
+      "end": 339.68,
+      "text": " He will tell in the first comparison that yes it is present"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 340.0,
+      "end": 341.2,
+      "text": " In one comparison"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 341.4,
+      "end": 342.8,
+      "text": " Where he may have to"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 343.0,
+      "end": 346.0,
+      "text": " Do 1, 2, 3, 4, 5 comparisons"
+    },
+    {
+      "number": "4",
+      "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes) - CodeWithHarry",
+      "start": 346.0,
+      "end": 347.4,
+      "text": " There he has done one comparison"
+    }
+  ],
+  "text": " Guys, sometimes in your daily life, it is very good with you, like suppose you didn't prepare for the exam and your exam got cancelled and sometimes you feel bad with it, like suppose you didn't prepare and the same day the surprise test was done Similarly, there is a lot of such thing in the life of the algorithm, like sometimes it gets such an input in which it says that today it was fun, I solved it in big O of 1 sometimes it gets such an input that it gets worried about its life, like how did I get this input, I have to do so much work for it Similarly, to define the algorithm, to define these events in the life of the algorithm, there is a best case, worst case and expected case What is all this and why is all this and how is all this, we will see in today's video Along with this, I have packed one more thing in this video, the definition of log, if you have seen this video till the end then you will know what is this log, you must have read log m to the power n is equal to n log m log log but what is this log, today's video will also clear this thing very well, what is log So if you have seen this video completely, then I can take the guarantee of this But I want to explain to you primarily the best case, worst case and expected case So first of all, I would like to take an example of an algorithm, I will write algo 1 now What is an algorithm, some steps to solve a problem, we saw this very early in the course Now what will I do here, if this algo 1 does something, I will make an array, I will say that I want an array, what does this array do First of all, what is in this array, there are some numbers in this array, let's say 1, 2, 3, 9, 24 And let's say this is 1 and 3, means any number, do not confuse it, not 1, 2, 3, 4, it is a number in the increasing order This is a sorted array, I will put its name, your name is kept, your parents, I will put its name First of all, I will write this sorted array and I am keeping its name as arr, what is its name, arr Now 1, 5, 7, 9, 24, there are numbers in this, these numbers are in the increasing order, see for yourself If you know a little bit of mathematics, then you will be able to find out that these numbers are written in the increasing order Now I say that I will give a number a, what will I give, I will give a number a and I would like you to tell me that is this number present in this array or not Now if the value of a is 8, then what will be your answer, yes, means 1, if the value of a, sorry your answer will be 9, because it is not there If the value of a is 9, then what will be the answer, the answer will be 0, 1, pay attention here, so the answer of this will be 1, because 9 is present in it You people pay attention here, you will have to pay full attention, this course is like this, this video is like this, this topic is like this, a is 8, if not present then 0, if present then 1 and so on So I can run this algorithm for any value of a and I will expect from this algorithm that a algorithm, a algorithm tell me that is this number present in this array or not Algorithm will say, ok, I will tell you, so how will it tell, now it will have to do something, there is no magician in the algorithm, there is no magician, so I will tell you what it will do Algorithm is a very innocent person, like there are some kids in the street, when cricket is going on, you make them field, and when they play, you make them pole, so that kind of algorithm, so it is a very simple person, does not use much brain So what will it do, it will say, ok, if I have to tell whether a is present in this array or not, so what I will do, I will start comparing it with all the elements one by one, I will compare it with this, then I will compare it with this, then I will compare it with this and I will compare a with this Till I do not compare with all, this algorithm will say that I will keep comparing, ok, so if its size is n, if the size of the array is n, ok, listen to me carefully, a little brain will be applied here, if the size of the array is n, then how much comparison will this algorithm do, tell me, it will do n comparisons And when will it do n comparisons, when it will not get that number, it may get the number in the second comparison, it may get the number in the third comparison, if it gets the number in the array, then it will stop there and tell that yes, the number is present, ok, so it will tell the number, now here it is comparing one by one with everyone, now is this the best way to do this, obviously not, because algorithm is a very simple person, who does not have much brain, so it is comparing everything with numbers I have written 1 here, but if luck is going on in algorithm 1, if the luck is going well, its luck is going well, then what will happen, that it will get the number in the first element here, if it is lucky algorithm, it will get a equal to 1 A is equal to 1 He will tell in the first comparison that yes it is present In one comparison Where he may have to Do 1, 2, 3, 4, 5 comparisons There he has done one comparison"
+}

@@ -1,0 +1,3400 @@
+{
+  "chunks": [
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 0.0,
+      "end": 3.68,
+      "text": " guys in this video we are going to talk about insertion"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 3.68,
+      "end": 12.32,
+      "text": " if you don't know then we have talked about array operations in detail"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 12.32,
+      "end": 18.72,
+      "text": " and here I will give you the pdf of array operations"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 18.72,
+      "end": 25.04,
+      "text": " now as I told you in the previous video that I will not tell you the traversal of the array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 25.04,
+      "end": 34.96,
+      "text": " I will make a file called insertion.c and I will put the video number here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 34.96,
+      "end": 40.16,
+      "text": " I like to put the number of the video because it gives clarity in which video I have done it"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 40.16,
+      "end": 44.4,
+      "text": " so this is video number 10 so I will rename it to 10"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 44.4,
+      "end": 48.56,
+      "text": " you don't have to do this because I have to provide this code"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 48.56,
+      "end": 52.08,
+      "text": " I will put a boilerplate template in it"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 52.08,
+      "end": 58.08,
+      "text": " suppose we have an array int arr 100"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 58.08,
+      "end": 64.72,
+      "text": " so I told my compiler that I need an array to store 100 integers"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 64.72,
+      "end": 68.72,
+      "text": " so my compiler said that if you want then take it, it is not more than you"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 68.8,
+      "end": 75.76,
+      "text": " so when I did this then I have a reserved space of 100 elements"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 75.76,
+      "end": 86.56,
+      "text": " now I can put the values of my arr 0, arr 1, arr 2"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 86.56,
+      "end": 89.52,
+      "text": " so I can write it in C"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 89.52,
+      "end": 92.72,
+      "text": " 1, 2, 6, 78"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 92.72,
+      "end": 100.0,
+      "text": " now I will write a function to display this array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 100.0,
+      "end": 102.96,
+      "text": " so I will write void display"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 102.96,
+      "end": 107.03999999999999,
+      "text": " now as I told you earlier that I will not tell you the traversal"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 107.03999999999999,
+      "end": 110.16,
+      "text": " if you want I will tell you the traversal in this way"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 110.16,
+      "end": 113.68,
+      "text": " it takes an address and there are 4 elements in it"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 113.68,
+      "end": 115.92,
+      "text": " and here a for loop is applied"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 115.92,
+      "end": 120.56,
+      "text": " in which I can write int i is equal to 0, i is less than or equal to n"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 120.8,
+      "end": 125.68,
+      "text": " and here I can write int n"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 125.68,
+      "end": 132.48,
+      "text": " and here I can write int arr is equal to 0, i is less than or equal to n"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 132.48,
+      "end": 134.88,
+      "text": " so I have already told you this"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 134.88,
+      "end": 140.24,
+      "text": " so I will not tell you how to display the array elements"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 140.24,
+      "end": 143.28,
+      "text": " now some of you will say that tell me"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 143.28,
+      "end": 147.76,
+      "text": " no, I will not tell you because I have already made a video of C language"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 148.0,
+      "end": 151.51999999999998,
+      "text": " so these things you know from my C language video"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 151.51999999999998,
+      "end": 154.64,
+      "text": " that how we can display an array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 154.64,
+      "end": 156.72,
+      "text": " now when I run this program"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 156.72,
+      "end": 159.28,
+      "text": " so you see the array elements are printed"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 159.28,
+      "end": 161.2,
+      "text": " no surprises whatsoever"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 161.2,
+      "end": 163.35999999999999,
+      "text": " because I was using 4 elements"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 163.35999999999999,
+      "end": 166.72,
+      "text": " so I hope you understood this thing"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 166.72,
+      "end": 169.44,
+      "text": " now here the display that I have made"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 169.44,
+      "end": 172.95999999999998,
+      "text": " if I do not give backslash n and give some space"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 172.95999999999998,
+      "end": 176.95999999999998,
+      "text": " and when all the elements are printed then I give a backslash n"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 177.04000000000002,
+      "end": 179.52,
+      "text": " that can be a way to print the array elements"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 179.52,
+      "end": 181.44,
+      "text": " but this is a data structures course"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 181.44,
+      "end": 183.84,
+      "text": " I don't want to tell you how to print the array elements"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 183.84,
+      "end": 186.24,
+      "text": " and the same thing that we did in the display"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 186.24,
+      "end": 187.84,
+      "text": " we did this traversal"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 187.84,
+      "end": 192.8,
+      "text": " that is, we visited all the elements once"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 192.8,
+      "end": 194.64000000000001,
+      "text": " so this was the traversal of the array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 194.64000000000001,
+      "end": 196.96,
+      "text": " so the traversal of our array is also done"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 196.96,
+      "end": 200.0,
+      "text": " I said that I will not waste time"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 200.0,
+      "end": 201.76000000000002,
+      "text": " and I also made you do the traversal"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 201.76000000000002,
+      "end": 204.0,
+      "text": " so what we will do here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 204.0,
+      "end": 206.08,
+      "text": " the main work that we will do is insertion"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 206.16000000000003,
+      "end": 207.92000000000002,
+      "text": " you know the array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 207.92000000000002,
+      "end": 210.64000000000001,
+      "text": " you know how to display the elements"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 210.64000000000001,
+      "end": 212.64000000000001,
+      "text": " now here the syntax that I have written"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 212.64000000000001,
+      "end": 213.60000000000002,
+      "text": " don't worry about it"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 213.60000000000002,
+      "end": 214.88000000000002,
+      "text": " because here 100 is written inside"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 214.88000000000002,
+      "end": 216.8,
+      "text": " and here 4 elements are written"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 216.8,
+      "end": 219.20000000000002,
+      "text": " so I have done this because"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 219.20000000000002,
+      "end": 226.0,
+      "text": " I want to use only 4 elements out of my 100 elements"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 226.0,
+      "end": 228.08,
+      "text": " that's why I have written it like this"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 228.08,
+      "end": 229.28,
+      "text": " if I want"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 229.28,
+      "end": 232.48000000000002,
+      "text": " then I can add more elements in the future"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 232.48000000000002,
+      "end": 233.12,
+      "text": " okay"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 233.68,
+      "end": 234.88000000000002,
+      "text": " so I did this"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 234.88,
+      "end": 236.16,
+      "text": " now what I will do here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 236.16,
+      "end": 238.4,
+      "text": " I will make an insertion function"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 238.4,
+      "end": 239.84,
+      "text": " so what will happen"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 239.84,
+      "end": 241.68,
+      "text": " the function of my insertion"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 241.68,
+      "end": 244.07999999999998,
+      "text": " I will write something like this"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 244.07999999999998,
+      "end": 247.68,
+      "text": " that insert in this arr"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 247.68,
+      "end": 251.28,
+      "text": " and I will pass this arr by address"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 251.28,
+      "end": 252.48,
+      "text": " how will I pass it?"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 252.48,
+      "end": 253.68,
+      "text": " I will pass it by address"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 253.68,
+      "end": 255.35999999999999,
+      "text": " I will do one thing here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 255.35999999999999,
+      "end": 257.36,
+      "text": " I will make int size is equal to 4"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 257.36,
+      "end": 258.56,
+      "text": " which means that"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 258.56,
+      "end": 261.76,
+      "text": " we are using 4 elements of this element"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 262.48,
+      "end": 266.56,
+      "text": " we can store 100 elements here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 266.56,
+      "end": 268.64,
+      "text": " which means 100 liter tanker"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 268.64,
+      "end": 270.96,
+      "text": " and 4 liter water is filled in it"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 270.96,
+      "end": 275.59999999999997,
+      "text": " which means 96 liter water can be stored in it"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 275.59999999999997,
+      "end": 277.12,
+      "text": " now what we will do here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 277.12,
+      "end": 278.8,
+      "text": " I will write here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 278.8,
+      "end": 281.59999999999997,
+      "text": " sorted insertion"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 281.59999999999997,
+      "end": 282.15999999999997,
+      "text": " okay"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 282.15999999999997,
+      "end": 284.8,
+      "text": " so here I will make a function named sorted insertion"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 284.8,
+      "end": 287.2,
+      "text": " and what I have to do with this sorted insertion"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 287.2,
+      "end": 289.03999999999996,
+      "text": " first I have to pass the array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 289.28000000000003,
+      "end": 293.04,
+      "text": " then I have to pass the size"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 293.04,
+      "end": 294.8,
+      "text": " but before that I have to give the size"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 294.8,
+      "end": 297.36,
+      "text": " then I have to give int element"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 297.36,
+      "end": 298.96000000000004,
+      "text": " and I will write only element here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 298.96000000000004,
+      "end": 300.8,
+      "text": " suppose here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 300.8,
+      "end": 303.52000000000004,
+      "text": " element to be inserted is 45"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 303.52000000000004,
+      "end": 305.84000000000003,
+      "text": " I want to insert 45 in the array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 305.84000000000003,
+      "end": 306.32000000000005,
+      "text": " okay"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 306.32000000000005,
+      "end": 307.36,
+      "text": " so I will write here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 307.36,
+      "end": 309.6,
+      "text": " element whatever you want to insert"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 309.6,
+      "end": 311.76,
+      "text": " and after this what I will give here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 311.76,
+      "end": 313.44,
+      "text": " what is the capacity of the array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 313.44,
+      "end": 315.84000000000003,
+      "text": " because it is also important to know the capacity of the function"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 315.84000000000003,
+      "end": 317.04,
+      "text": " I will do one thing"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 317.04,
+      "end": 319.04,
+      "text": " to make the program compact"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 319.04,
+      "end": 321.04,
+      "text": " I will write something like this"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 321.04,
+      "end": 323.04,
+      "text": " so what will happen with this"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 323.04,
+      "end": 324.72,
+      "text": " int size is equal to 4"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 324.72,
+      "end": 326.16,
+      "text": " element is equal to 45"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 326.16,
+      "end": 329.84000000000003,
+      "text": " the capacity of our array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 329.84000000000003,
+      "end": 331.68,
+      "text": " is 100"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 331.68,
+      "end": 333.44,
+      "text": " so I will write 100 directly"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 333.44,
+      "end": 335.44,
+      "text": " so I will send 100 directly"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 335.44,
+      "end": 338.64000000000004,
+      "text": " otherwise I can write capacity is equal to 100"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 338.64000000000004,
+      "end": 341.68,
+      "text": " so here I have made an array of 100"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 341.68,
+      "end": 342.88,
+      "text": " I have made an array of 100 size"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 342.88,
+      "end": 345.52000000000004,
+      "text": " and I have passed all these things here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 345.52000000000004,
+      "end": 346.08000000000004,
+      "text": " okay"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 346.08,
+      "end": 350.47999999999996,
+      "text": " so if I want to insert in a sorted array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 350.47999999999996,
+      "end": 351.44,
+      "text": " at an index"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 351.44,
+      "end": 352.08,
+      "text": " okay"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 352.08,
+      "end": 354.47999999999996,
+      "text": " so I call it sorted in"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 354.47999999999996,
+      "end": 356.64,
+      "text": " and call it an int insertion"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 356.64,
+      "end": 359.2,
+      "text": " that is, I want to insert on an index"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 359.2,
+      "end": 362.4,
+      "text": " that at a given index"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 362.4,
+      "end": 364.56,
+      "text": " I want to insert here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 364.56,
+      "end": 365.59999999999997,
+      "text": " and what I will do here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 365.59999999999997,
+      "end": 366.64,
+      "text": " I will take that index too"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 366.64,
+      "end": 367.28,
+      "text": " okay"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 367.28,
+      "end": 369.12,
+      "text": " and suppose I"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 369.12,
+      "end": 372.32,
+      "text": " want to insert the index"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 372.32,
+      "end": 374.64,
+      "text": " what is my"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 374.64,
+      "end": 375.44,
+      "text": " suppose it is 3"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 375.44,
+      "end": 377.44,
+      "text": " I want to insert on index number 3"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 377.44,
+      "end": 378.0,
+      "text": " okay"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 378.0,
+      "end": 380.0,
+      "text": " so I have written a display function"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 380.0,
+      "end": 382.56,
+      "text": " and I printed the array before insertion"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 382.56,
+      "end": 383.6,
+      "text": " then after that"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 383.6,
+      "end": 385.84,
+      "text": " this int insertion function"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 385.84,
+      "end": 386.96,
+      "text": " which I am going to make now"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 386.96,
+      "end": 388.24,
+      "text": " I will make it here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 388.24,
+      "end": 390.4,
+      "text": " I will keep it void"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 390.4,
+      "end": 393.04,
+      "text": " because it will simply update the array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 393.04,
+      "end": 396.48,
+      "text": " it will not do anything"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 396.48,
+      "end": 397.2,
+      "text": " with the array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 397.2,
+      "end": 398.8,
+      "text": " that it is returning a new array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 398.8,
+      "end": 399.92,
+      "text": " or returning a new value"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 399.92,
+      "end": 403.2,
+      "text": " it will simply insert the int insertion here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 403.2,
+      "end": 405.76,
+      "text": " but here I will return an integer"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 405.76,
+      "end": 406.47999999999996,
+      "text": " which will tell"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 406.47999999999996,
+      "end": 409.59999999999997,
+      "text": " that the insertion is successful or not"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 409.59999999999997,
+      "end": 410.71999999999997,
+      "text": " because here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 410.71999999999997,
+      "end": 412.32,
+      "text": " the first condition I am going to write"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 412.32,
+      "end": 413.52,
+      "text": " that if"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 413.52,
+      "end": 415.68,
+      "text": " I will write it like this"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 415.68,
+      "end": 418.24,
+      "text": " this int arr will be my array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 418.24,
+      "end": 420.24,
+      "text": " and here int size will be"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 420.24,
+      "end": 421.44,
+      "text": " I will hit a shortcut"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 421.44,
+      "end": 422.8,
+      "text": " I will press alt on my keyboard"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 422.8,
+      "end": 424.48,
+      "text": " and click on all these places"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 424.48,
+      "end": 426.88,
+      "text": " and here I will give int space"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 426.88,
+      "end": 428.0,
+      "text": " so int element is this"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 428.0,
+      "end": 428.96,
+      "text": " int capacity is this"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 428.96,
+      "end": 430.08,
+      "text": " int index is this"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 430.08,
+      "end": 432.15999999999997,
+      "text": " now what I will say here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 432.24,
+      "end": 434.16,
+      "text": " that look here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 434.16,
+      "end": 436.16,
+      "text": " if"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 436.16,
+      "end": 439.04,
+      "text": " if there is no space in your array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 439.04,
+      "end": 440.48,
+      "text": " then what you can do"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 440.48,
+      "end": 443.12,
+      "text": " if your entire array is full"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 443.12,
+      "end": 445.44000000000005,
+      "text": " that means your size"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 445.44000000000005,
+      "end": 448.8,
+      "text": " is greater than or equal to capacity"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 448.8,
+      "end": 450.40000000000003,
+      "text": " then I can't take more"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 450.40000000000003,
+      "end": 453.52000000000004,
+      "text": " if your tanker has 100 liters of water"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 453.52000000000004,
+      "end": 454.72,
+      "text": " and it is full"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 454.72,
+      "end": 456.48,
+      "text": " then in that 101 liters"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 456.48,
+      "end": 457.44000000000005,
+      "text": " whatever roll it is"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 457.44000000000005,
+      "end": 459.36,
+      "text": " it will not get water to come inside"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 459.36,
+      "end": 460.16,
+      "text": " so"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 460.16,
+      "end": 461.6,
+      "text": " if the capacity is that much"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 461.6,
+      "end": 464.16,
+      "text": " now suppose you are going to school"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 464.16,
+      "end": 465.6,
+      "text": " and you have exam that day"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 465.6,
+      "end": 466.72,
+      "text": " and auto is full"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 466.72,
+      "end": 468.32000000000005,
+      "text": " so you say to auto driver"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 468.32000000000005,
+      "end": 469.6,
+      "text": " please take me inside"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 469.6,
+      "end": 470.40000000000003,
+      "text": " exam will be left"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 470.40000000000003,
+      "end": 471.44,
+      "text": " he will say where should I take you"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 471.44,
+      "end": 472.48,
+      "text": " I will take you in my shoulder"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 472.48,
+      "end": 473.6,
+      "text": " so means"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 473.6,
+      "end": 474.40000000000003,
+      "text": " when there is no space"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 474.40000000000003,
+      "end": 475.04,
+      "text": " when there is no capacity"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 475.04,
+      "end": 477.04,
+      "text": " then you have to return"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 477.04,
+      "end": 477.76000000000005,
+      "text": " minus one"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 477.76000000000005,
+      "end": 480.48,
+      "text": " and I am taking a sign of minus one"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 480.48,
+      "end": 481.6,
+      "text": " that look"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 481.6,
+      "end": 482.16,
+      "text": " it is like"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 482.16,
+      "end": 483.6,
+      "text": " if you return minus one"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 483.6,
+      "end": 486.40000000000003,
+      "text": " then our insertion here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 486.40000000000003,
+      "end": 488.96000000000004,
+      "text": " is not successful"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 488.96000000000004,
+      "end": 489.6,
+      "text": " ok"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 489.6,
+      "end": 491.36,
+      "text": " now I will do this"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 491.36,
+      "end": 493.12,
+      "text": " insertion is not successful here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 493.12,
+      "end": 494.96000000000004,
+      "text": " now if this return is not done here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 494.96000000000004,
+      "end": 495.92,
+      "text": " what does it mean"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 495.92,
+      "end": 497.68,
+      "text": " I come here in my one note notebook"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 497.68,
+      "end": 498.88,
+      "text": " and tell you"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 498.88,
+      "end": 502.08000000000004,
+      "text": " suppose this is 7, 8, 12, 27 and 88 array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 502.08000000000004,
+      "end": 502.56,
+      "text": " ok"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 502.56,
+      "end": 503.92,
+      "text": " and there is a lot of space ahead of it"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 503.92,
+      "end": 505.52000000000004,
+      "text": " suppose there is a lot of space ahead of it"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 505.52000000000004,
+      "end": 506.08000000000004,
+      "text": " ok"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 506.08000000000004,
+      "end": 507.84000000000003,
+      "text": " so 7, 8, 12"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 507.84000000000003,
+      "end": 509.12,
+      "text": " now here my index"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 509.12,
+      "end": 510.24,
+      "text": " here my index is how much"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 510.24,
+      "end": 511.44,
+      "text": " if I show you"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 511.44,
+      "end": 512.8000000000001,
+      "text": " so my index is equal to 3"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 512.8000000000001,
+      "end": 513.28,
+      "text": " ok"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 513.28,
+      "end": 515.6800000000001,
+      "text": " so I want to store on third index"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 515.6800000000001,
+      "end": 517.6,
+      "text": " when I want to store on third index"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 517.6,
+      "end": 519.6,
+      "text": " so from index"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 519.6,
+      "end": 520.32,
+      "text": " to size"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 520.32,
+      "end": 522.32,
+      "text": " means from index to end"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 522.32,
+      "end": 523.2800000000001,
+      "text": " what I will do"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 523.2800000000001,
+      "end": 524.48,
+      "text": " I will pull the elements"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 524.48,
+      "end": 526.08,
+      "text": " so for that a for loop will run"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 526.08,
+      "end": 526.88,
+      "text": " ok"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 526.88,
+      "end": 527.6800000000001,
+      "text": " for loop will run"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 527.6800000000001,
+      "end": 528.48,
+      "text": " from where it will run"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 528.48,
+      "end": 529.5200000000001,
+      "text": " int i is equal to"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 529.5200000000001,
+      "end": 530.48,
+      "text": " from where it will run"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 530.48,
+      "end": 531.12,
+      "text": " it will run"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 531.12,
+      "end": 533.0400000000001,
+      "text": " int i is equal to"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 533.0400000000001,
+      "end": 534.24,
+      "text": " from your index"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 534.24,
+      "end": 535.2800000000001,
+      "text": " it will run from there"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 535.2800000000001,
+      "end": 537.84,
+      "text": " because you want to do the same with index"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 537.84,
+      "end": 539.12,
+      "text": " in fact that loop"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 539.12,
+      "end": 540.32,
+      "text": " it will be right to run it upside down"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 540.32,
+      "end": 542.08,
+      "text": " because what I want to do here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 542.08,
+      "end": 543.6,
+      "text": " which is my last element"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 543.6,
+      "end": 545.44,
+      "text": " I want to pull it one step ahead"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 545.44,
+      "end": 546.48,
+      "text": " so here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 546.48,
+      "end": 548.4000000000001,
+      "text": " if my array size is 5"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 548.4000000000001,
+      "end": 549.2800000000001,
+      "text": " so that means"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 549.28,
+      "end": 551.28,
+      "text": " I have to pull 4 index"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 551.28,
+      "end": 551.8399999999999,
+      "text": " ok"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 551.8399999999999,
+      "end": 555.04,
+      "text": " so if I run this for loop"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 555.04,
+      "end": 557.28,
+      "text": " from i is equal to size"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 557.28,
+      "end": 558.88,
+      "text": " now here what is the size"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 558.88,
+      "end": 559.68,
+      "text": " 1, 2, 6, 8"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 559.68,
+      "end": 560.48,
+      "text": " I will do one thing"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 560.48,
+      "end": 561.76,
+      "text": " here this array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 561.76,
+      "end": 562.72,
+      "text": " 1, 2, 6, 8"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 562.72,
+      "end": 564.64,
+      "text": " I will take this array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 564.64,
+      "end": 566.3199999999999,
+      "text": " 7, 8, 12, 27, 88"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 566.3199999999999,
+      "end": 568.9599999999999,
+      "text": " 7, 8, 12, 27, 88"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 568.9599999999999,
+      "end": 573.76,
+      "text": " 7, 8, 12, 27, 88"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 573.76,
+      "end": 574.88,
+      "text": " I have taken this array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 574.88,
+      "end": 577.12,
+      "text": " 7, 8, 12, 27, 88"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 577.12,
+      "end": 577.68,
+      "text": " ok"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 577.68,
+      "end": 579.68,
+      "text": " so here this array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 579.68,
+      "end": 581.04,
+      "text": " I have to insert"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 581.04,
+      "end": 582.16,
+      "text": " at index number 3"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 582.16,
+      "end": 582.7199999999999,
+      "text": " ok"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 582.7199999999999,
+      "end": 583.68,
+      "text": " so what I want"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 583.68,
+      "end": 584.9599999999999,
+      "text": " that the 88 array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 584.9599999999999,
+      "end": 586.2399999999999,
+      "text": " it will go one step ahead"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 586.2399999999999,
+      "end": 587.92,
+      "text": " so if I start counting from here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 587.92,
+      "end": 590.16,
+      "text": " 0, 1, 2, 3, 4"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 590.16,
+      "end": 591.8399999999999,
+      "text": " so here my size is 5"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 591.8399999999999,
+      "end": 592.9599999999999,
+      "text": " so I will do 5"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 592.9599999999999,
+      "end": 594.0799999999999,
+      "text": " so what I will do"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 594.0799999999999,
+      "end": 596.0799999999999,
+      "text": " I will start with size minus 1"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 596.0799999999999,
+      "end": 597.1999999999999,
+      "text": " so I will say i value"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 597.1999999999999,
+      "end": 598.8,
+      "text": " size minus 1"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 598.8,
+      "end": 599.76,
+      "text": " and I will say"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 599.76,
+      "end": 601.76,
+      "text": " that my arr"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 601.76,
+      "end": 603.52,
+      "text": " i"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 603.52,
+      "end": 604.88,
+      "text": " it will shrink"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 604.88,
+      "end": 606.88,
+      "text": " arr i plus 1"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 606.88,
+      "end": 608.32,
+      "text": " ok so arr i plus 1"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 608.32,
+      "end": 609.2,
+      "text": " is equal to arr i"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 609.2,
+      "end": 610.4,
+      "text": " I have to do"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 610.4,
+      "end": 611.4399999999999,
+      "text": " and here I have to do"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 611.4399999999999,
+      "end": 612.0,
+      "text": " arr i"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 612.0,
+      "end": 613.52,
+      "text": " means I want"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 613.52,
+      "end": 614.56,
+      "text": " that the 88"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 614.56,
+      "end": 616.96,
+      "text": " means I am starting with size minus 1"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 616.96,
+      "end": 618.08,
+      "text": " my size is 5"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 618.08,
+      "end": 619.36,
+      "text": " means I am starting with 4"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 619.36,
+      "end": 621.04,
+      "text": " so 0, 1, 2, 3, 4"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 621.04,
+      "end": 622.88,
+      "text": " I want that the index number 4"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 622.88,
+      "end": 623.76,
+      "text": " it will go ahead"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 623.76,
+      "end": 625.36,
+      "text": " because there is space in the array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 625.36,
+      "end": 626.16,
+      "text": " if there was no space"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 626.16,
+      "end": 627.92,
+      "text": " then this thing would have returned it"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 627.92,
+      "end": 630.16,
+      "text": " so 88 will shrink and move ahead"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 630.16,
+      "end": 632.16,
+      "text": " then I will do the same for 27"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 632.16,
+      "end": 633.68,
+      "text": " I will do the same for 12"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 633.68,
+      "end": 635.36,
+      "text": " and how long will I do this work"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 635.44,
+      "end": 637.44,
+      "text": " till the time my index"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 637.44,
+      "end": 638.88,
+      "text": " where I want to insert"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 638.88,
+      "end": 640.16,
+      "text": " 0, 1, 2, 3"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 640.16,
+      "end": 641.76,
+      "text": " means I want to insert here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 641.76,
+      "end": 643.76,
+      "text": " till it shrinks"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 643.76,
+      "end": 645.76,
+      "text": " now as soon as my index shrinks"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 645.76,
+      "end": 647.76,
+      "text": " so I will do here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 647.76,
+      "end": 649.76,
+      "text": " i is greater than equal to index"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 649.76,
+      "end": 651.76,
+      "text": " i is greater than equal to index"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 651.76,
+      "end": 653.76,
+      "text": " as soon as it will come to index"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 653.76,
+      "end": 655.04,
+      "text": " I will stop shrinking"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 655.04,
+      "end": 656.64,
+      "text": " and finally what I will do"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 656.64,
+      "end": 657.2,
+      "text": " I will say"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 657.2,
+      "end": 660.4,
+      "text": " now put that element instead of a index"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 660.4,
+      "end": 661.2,
+      "text": " what you do"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 661.2,
+      "end": 663.6800000000001,
+      "text": " now put that element instead of a index"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 663.92,
+      "end": 665.3599999999999,
+      "text": " and along with that"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 665.3599999999999,
+      "end": 666.64,
+      "text": " I am writing arr here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 666.64,
+      "end": 667.8399999999999,
+      "text": " and along with that"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 667.8399999999999,
+      "end": 669.12,
+      "text": " return"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 669.12,
+      "end": 670.16,
+      "text": " uh"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 670.16,
+      "end": 671.28,
+      "text": " return index"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 671.28,
+      "end": 672.3199999999999,
+      "text": " or return 1"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 672.3199999999999,
+      "end": 673.1999999999999,
+      "text": " 1 for success"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 673.1999999999999,
+      "end": 674.56,
+      "text": " okay, done"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 674.56,
+      "end": 675.92,
+      "text": " your array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 675.92,
+      "end": 678.88,
+      "text": " we have successfully inserted it"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 678.88,
+      "end": 680.64,
+      "text": " okay, so 0, 1, 2, 3"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 680.64,
+      "end": 682.2399999999999,
+      "text": " if I want to insert on 3"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 682.2399999999999,
+      "end": 683.5999999999999,
+      "text": " then here I want to see"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 683.5999999999999,
+      "end": 685.76,
+      "text": " 45, 27 and 88 will be ahead"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 685.76,
+      "end": 686.4,
+      "text": " okay"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 686.4,
+      "end": 688.0,
+      "text": " so now what I will do here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 688.0,
+      "end": 690.0799999999999,
+      "text": " I will also plus the size"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 690.0799999999999,
+      "end": 690.88,
+      "text": " so I will do here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 690.88,
+      "end": 693.3599999999999,
+      "text": " size plus equals to 1"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 693.36,
+      "end": 694.96,
+      "text": " because the size has increased"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 694.96,
+      "end": 696.96,
+      "text": " earlier it had 5 elements"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 696.96,
+      "end": 698.96,
+      "text": " now it has 6 elements"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 698.96,
+      "end": 699.52,
+      "text": " okay"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 699.52,
+      "end": 701.12,
+      "text": " so after inserting"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 701.12,
+      "end": 702.96,
+      "text": " I will increase the size"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 702.96,
+      "end": 704.16,
+      "text": " and after increasing the size"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 704.16,
+      "end": 705.52,
+      "text": " I will run the display"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 705.52,
+      "end": 707.2,
+      "text": " and after running the display"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 707.2,
+      "end": 708.8000000000001,
+      "text": " I will see my array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 708.8000000000001,
+      "end": 710.24,
+      "text": " how it looks after insertion"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 710.24,
+      "end": 712.24,
+      "text": " and here comes a problem"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 712.24,
+      "end": 712.88,
+      "text": " uh"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 712.88,
+      "end": 714.16,
+      "text": " 1, 2, 7"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 714.16,
+      "end": 715.52,
+      "text": " 1, 2, 6"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 715.52,
+      "end": 716.4,
+      "text": " and 78"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 716.4,
+      "end": 717.52,
+      "text": " okay, so I have written here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 717.52,
+      "end": 719.04,
+      "text": " 7, 8, 12"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 719.04,
+      "end": 720.24,
+      "text": " uh 27"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 720.24,
+      "end": 722.16,
+      "text": " I think I am making some mistake somewhere"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 722.16,
+      "end": 723.6,
+      "text": " I am making some mistake"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 723.6,
+      "end": 725.12,
+      "text": " let me spot it"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 725.12,
+      "end": 727.12,
+      "text": " okay, the mistake I am making"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 727.12,
+      "end": 729.12,
+      "text": " here I should have written I minus minus"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 729.12,
+      "end": 730.4,
+      "text": " I had written I plus plus"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 730.4,
+      "end": 732.16,
+      "text": " so let's run it"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 732.16,
+      "end": 734.16,
+      "text": " and see here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 734.16,
+      "end": 736.8,
+      "text": " our element has been inserted"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 736.8,
+      "end": 738.9599999999999,
+      "text": " so here it was 7, 8, 12, 27, 88"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 738.9599999999999,
+      "end": 740.9599999999999,
+      "text": " now after 7, 8, 12"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 740.9599999999999,
+      "end": 741.8399999999999,
+      "text": " it has become 45"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 741.8399999999999,
+      "end": 744.16,
+      "text": " that is, we have 45 on index number 3"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 744.16,
+      "end": 746.16,
+      "text": " so the insertion we just saw"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 746.16,
+      "end": 747.4399999999999,
+      "text": " its code is here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 747.4399999999999,
+      "end": 748.64,
+      "text": " this is the traversal code"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 748.64,
+      "end": 749.36,
+      "text": " okay"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 749.36,
+      "end": 751.36,
+      "text": " and here is the insertion code"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 751.36,
+      "end": 753.36,
+      "text": " so I will write here traversal"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 753.36,
+      "end": 755.36,
+      "text": " code for traversal"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 755.36,
+      "end": 757.36,
+      "text": " I will write"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 757.36,
+      "end": 759.36,
+      "text": " and I will write code for"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 759.36,
+      "end": 760.96,
+      "text": " insertion, okay"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 760.96,
+      "end": 762.16,
+      "text": " now sometimes what happens is"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 762.16,
+      "end": 764.16,
+      "text": " when you are inserting in an array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 764.16,
+      "end": 765.76,
+      "text": " then you have to"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 765.76,
+      "end": 767.36,
+      "text": " insert in a sorted array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 767.36,
+      "end": 769.36,
+      "text": " like I will tell you"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 769.36,
+      "end": 770.72,
+      "text": " 1, 2, 3, 4, I know"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 770.72,
+      "end": 772.72,
+      "text": " 1, 2, 3, 4, 5"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 772.72,
+      "end": 773.92,
+      "text": " uh"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 773.92,
+      "end": 775.9200000000001,
+      "text": " 67, 88, 9, this is"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 775.9200000000001,
+      "end": 777.9200000000001,
+      "text": " and you have to insert 20 in it"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 777.9200000000001,
+      "end": 780.48,
+      "text": " so if you want to keep this array sorted"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 781.2,
+      "end": 782.24,
+      "text": " so what we have to do"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 782.24,
+      "end": 783.6800000000001,
+      "text": " where we have to insert 20"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 783.6800000000001,
+      "end": 785.6800000000001,
+      "text": " we have to insert 20 here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 785.6800000000001,
+      "end": 787.6800000000001,
+      "text": " okay, after 5"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 787.6800000000001,
+      "end": 789.6800000000001,
+      "text": " so in that case what you have to do"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 789.6800000000001,
+      "end": 791.6800000000001,
+      "text": " in that case you have to"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 791.6800000000001,
+      "end": 793.6800000000001,
+      "text": " find the index to insert"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 793.6800000000001,
+      "end": 795.6800000000001,
+      "text": " after that you have to insert"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 795.6800000000001,
+      "end": 797.6800000000001,
+      "text": " now you can search this index"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 797.6800000000001,
+      "end": 799.6800000000001,
+      "text": " by binary search"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 799.6800000000001,
+      "end": 801.6800000000001,
+      "text": " and then you can drag all the elements"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 801.6800000000001,
+      "end": 802.88,
+      "text": " and then you can insert here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 802.88,
+      "end": 804.88,
+      "text": " so you will get to see a lot of variations"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 804.88,
+      "end": 806.88,
+      "text": " of this problem in the market, okay"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 806.88,
+      "end": 808.88,
+      "text": " so now what is the efficient way"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 809.28,
+      "end": 811.28,
+      "text": " to do this, all this"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 811.28,
+      "end": 813.28,
+      "text": " you can think about it later"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 813.28,
+      "end": 815.28,
+      "text": " you will get to see a lot of modified problems"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 815.28,
+      "end": 817.28,
+      "text": " you will be able to do all that"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 817.28,
+      "end": 819.28,
+      "text": " this was our simple insertion"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 819.28,
+      "end": 821.28,
+      "text": " okay, now here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 821.28,
+      "end": 823.28,
+      "text": " this was our basic insertion"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 823.28,
+      "end": 825.28,
+      "text": " in the array and this was"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 825.28,
+      "end": 827.28,
+      "text": " our traversal in the array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 827.28,
+      "end": 829.28,
+      "text": " I hope you all understood"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 829.28,
+      "end": 831.28,
+      "text": " I wrote display function to show the array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 831.28,
+      "end": 833.28,
+      "text": " to show the array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 833.28,
+      "end": 835.28,
+      "text": " that given an array, given the size"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 835.28,
+      "end": 837.28,
+      "text": " you have to print all the elements"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 837.68,
+      "end": 839.68,
+      "text": " so here I have printed"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 839.68,
+      "end": 841.68,
+      "text": " the elements of the array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 841.68,
+      "end": 843.68,
+      "text": " now suppose I want to insert on index 1"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 843.68,
+      "end": 845.68,
+      "text": " means I want to see 7"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 845.68,
+      "end": 847.68,
+      "text": " 45 and then 8"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 847.68,
+      "end": 849.68,
+      "text": " so I can do this too"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 849.68,
+      "end": 851.68,
+      "text": " so see 7, 45, 8, 12"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 851.68,
+      "end": 853.68,
+      "text": " 27 and 88, okay"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 853.68,
+      "end": 855.68,
+      "text": " now you have to do one thing here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 855.68,
+      "end": 857.68,
+      "text": " there is a quiz for you and the quiz is"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 857.68,
+      "end": 859.68,
+      "text": " that you have to modify this code"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 859.68,
+      "end": 861.68,
+      "text": " so that you also tell"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 861.68,
+      "end": 863.68,
+      "text": " whether the insertion was successful or not"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 863.68,
+      "end": 865.68,
+      "text": " if the insertion was successful"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 866.0799999999999,
+      "end": 868.0799999999999,
+      "text": " then you have to display the array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 868.0799999999999,
+      "end": 870.0799999999999,
+      "text": " otherwise you don't have to display the array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 870.0799999999999,
+      "end": 872.0799999999999,
+      "text": " so I give you this code as a challenge"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 872.0799999999999,
+      "end": 874.0799999999999,
+      "text": " that you implement this code"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 874.0799999999999,
+      "end": 876.0799999999999,
+      "text": " and show me that if the insertion"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 876.0799999999999,
+      "end": 878.0799999999999,
+      "text": " is successful"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 878.0799999999999,
+      "end": 880.0799999999999,
+      "text": " then what you will do"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 880.0799999999999,
+      "end": 882.0799999999999,
+      "text": " that you will print the array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 882.0799999999999,
+      "end": 884.0799999999999,
+      "text": " the new array, the modified array"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 884.0799999999999,
+      "end": 886.0799999999999,
+      "text": " otherwise you will say that insertion failed"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 886.0799999999999,
+      "end": 888.0799999999999,
+      "text": " and you just write this much"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 888.0799999999999,
+      "end": 890.0799999999999,
+      "text": " and that much will be done"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 890.0799999999999,
+      "end": 892.0799999999999,
+      "text": " I hope you all understood"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 892.0799999999999,
+      "end": 894.0799999999999,
+      "text": " what I have tried to explain to you"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 894.48,
+      "end": 896.48,
+      "text": " so guys I hope that this course"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 896.48,
+      "end": 898.48,
+      "text": " will be very helpful for you"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 898.48,
+      "end": 900.48,
+      "text": " many people have accessed the playlist"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 900.48,
+      "end": 902.48,
+      "text": " I am so happy to see that"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 902.48,
+      "end": 904.48,
+      "text": " and many of you have also downloaded the notes"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 904.48,
+      "end": 906.48,
+      "text": " I am very happy about that"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 906.48,
+      "end": 908.48,
+      "text": " if I am making something"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 908.48,
+      "end": 910.48,
+      "text": " then you have to download it"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 910.48,
+      "end": 912.48,
+      "text": " I am very happy about every single download"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 912.48,
+      "end": 914.48,
+      "text": " so everyone download it, I have written notes for you"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 914.48,
+      "end": 916.48,
+      "text": " download it, read it"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 916.48,
+      "end": 918.48,
+      "text": " and if you have any issue"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 918.48,
+      "end": 920.48,
+      "text": " then you can watch the video"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 920.48,
+      "end": 922.48,
+      "text": " so it's not like you have only videos"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 922.88,
+      "end": 924.88,
+      "text": " you have notes, you have videos"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 924.88,
+      "end": 926.88,
+      "text": " I also do practice questions"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 926.88,
+      "end": 928.88,
+      "text": " and I have also uploaded one note notebook"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 928.88,
+      "end": 930.88,
+      "text": " so it's not like I am only"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 930.88,
+      "end": 932.88,
+      "text": " making you do it here"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 932.88,
+      "end": 934.88,
+      "text": " and not giving you the notebook"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 934.88,
+      "end": 936.88,
+      "text": " this notebook is also available with you"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 936.88,
+      "end": 938.88,
+      "text": " so you can take full advantage of it"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 938.88,
+      "end": 940.88,
+      "text": " and you will get all these questions"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 940.88,
+      "end": 942.88,
+      "text": " so I hope that"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 942.88,
+      "end": 944.88,
+      "text": " you are finding this course very helpful"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 944.88,
+      "end": 946.88,
+      "text": " if you are finding this course helpful"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 946.88,
+      "end": 948.88,
+      "text": " then I would like you to share it"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 948.88,
+      "end": 950.88,
+      "text": " with your friends on whatsapp group"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 951.28,
+      "end": 953.28,
+      "text": " and to everyone who shared the course"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 953.28,
+      "end": 955.28,
+      "text": " on Instagram"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 955.28,
+      "end": 957.28,
+      "text": " with screenshots of this playlist"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 957.28,
+      "end": 959.28,
+      "text": " first of all thank you"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 959.28,
+      "end": 961.28,
+      "text": " and second thing is that I have mentioned everyone"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 961.28,
+      "end": 963.28,
+      "text": " in my story"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 963.28,
+      "end": 965.28,
+      "text": " so if you are not on Instagram"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 965.28,
+      "end": 967.28,
+      "text": " then you can follow me"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 967.28,
+      "end": 969.28,
+      "text": " I have given the link in description"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 969.28,
+      "end": 971.28,
+      "text": " and pinned comment"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 971.28,
+      "end": 973.28,
+      "text": " so if you like this video"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 973.28,
+      "end": 975.28,
+      "text": " then do like it"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 975.28,
+      "end": 977.28,
+      "text": " thank you so much guys for watching this video"
+    },
+    {
+      "number": "5",
+      "title": "Coding Insertion Operation in Array in Data Structures in C language - CodeWithHarry",
+      "start": 977.28,
+      "end": 979.28,
+      "text": " and I will see you next time"
+    }
+  ],
+  "text": " guys in this video we are going to talk about insertion if you don't know then we have talked about array operations in detail and here I will give you the pdf of array operations now as I told you in the previous video that I will not tell you the traversal of the array I will make a file called insertion.c and I will put the video number here I like to put the number of the video because it gives clarity in which video I have done it so this is video number 10 so I will rename it to 10 you don't have to do this because I have to provide this code I will put a boilerplate template in it suppose we have an array int arr 100 so I told my compiler that I need an array to store 100 integers so my compiler said that if you want then take it, it is not more than you so when I did this then I have a reserved space of 100 elements now I can put the values of my arr 0, arr 1, arr 2 so I can write it in C 1, 2, 6, 78 now I will write a function to display this array so I will write void display now as I told you earlier that I will not tell you the traversal if you want I will tell you the traversal in this way it takes an address and there are 4 elements in it and here a for loop is applied in which I can write int i is equal to 0, i is less than or equal to n and here I can write int n and here I can write int arr is equal to 0, i is less than or equal to n so I have already told you this so I will not tell you how to display the array elements now some of you will say that tell me no, I will not tell you because I have already made a video of C language so these things you know from my C language video that how we can display an array now when I run this program so you see the array elements are printed no surprises whatsoever because I was using 4 elements so I hope you understood this thing now here the display that I have made if I do not give backslash n and give some space and when all the elements are printed then I give a backslash n that can be a way to print the array elements but this is a data structures course I don't want to tell you how to print the array elements and the same thing that we did in the display we did this traversal that is, we visited all the elements once so this was the traversal of the array so the traversal of our array is also done I said that I will not waste time and I also made you do the traversal so what we will do here the main work that we will do is insertion you know the array you know how to display the elements now here the syntax that I have written don't worry about it because here 100 is written inside and here 4 elements are written so I have done this because I want to use only 4 elements out of my 100 elements that's why I have written it like this if I want then I can add more elements in the future okay so I did this now what I will do here I will make an insertion function so what will happen the function of my insertion I will write something like this that insert in this arr and I will pass this arr by address how will I pass it? I will pass it by address I will do one thing here I will make int size is equal to 4 which means that we are using 4 elements of this element we can store 100 elements here which means 100 liter tanker and 4 liter water is filled in it which means 96 liter water can be stored in it now what we will do here I will write here sorted insertion okay so here I will make a function named sorted insertion and what I have to do with this sorted insertion first I have to pass the array then I have to pass the size but before that I have to give the size then I have to give int element and I will write only element here suppose here element to be inserted is 45 I want to insert 45 in the array okay so I will write here element whatever you want to insert and after this what I will give here what is the capacity of the array because it is also important to know the capacity of the function I will do one thing to make the program compact I will write something like this so what will happen with this int size is equal to 4 element is equal to 45 the capacity of our array is 100 so I will write 100 directly so I will send 100 directly otherwise I can write capacity is equal to 100 so here I have made an array of 100 I have made an array of 100 size and I have passed all these things here okay so if I want to insert in a sorted array at an index okay so I call it sorted in and call it an int insertion that is, I want to insert on an index that at a given index I want to insert here and what I will do here I will take that index too okay and suppose I want to insert the index what is my suppose it is 3 I want to insert on index number 3 okay so I have written a display function and I printed the array before insertion then after that this int insertion function which I am going to make now I will make it here I will keep it void because it will simply update the array it will not do anything with the array that it is returning a new array or returning a new value it will simply insert the int insertion here but here I will return an integer which will tell that the insertion is successful or not because here the first condition I am going to write that if I will write it like this this int arr will be my array and here int size will be I will hit a shortcut I will press alt on my keyboard and click on all these places and here I will give int space so int element is this int capacity is this int index is this now what I will say here that look here if if there is no space in your array then what you can do if your entire array is full that means your size is greater than or equal to capacity then I can't take more if your tanker has 100 liters of water and it is full then in that 101 liters whatever roll it is it will not get water to come inside so if the capacity is that much now suppose you are going to school and you have exam that day and auto is full so you say to auto driver please take me inside exam will be left he will say where should I take you I will take you in my shoulder so means when there is no space when there is no capacity then you have to return minus one and I am taking a sign of minus one that look it is like if you return minus one then our insertion here is not successful ok now I will do this insertion is not successful here now if this return is not done here what does it mean I come here in my one note notebook and tell you suppose this is 7, 8, 12, 27 and 88 array ok and there is a lot of space ahead of it suppose there is a lot of space ahead of it ok so 7, 8, 12 now here my index here my index is how much if I show you so my index is equal to 3 ok so I want to store on third index when I want to store on third index so from index to size means from index to end what I will do I will pull the elements so for that a for loop will run ok for loop will run from where it will run int i is equal to from where it will run it will run int i is equal to from your index it will run from there because you want to do the same with index in fact that loop it will be right to run it upside down because what I want to do here which is my last element I want to pull it one step ahead so here if my array size is 5 so that means I have to pull 4 index ok so if I run this for loop from i is equal to size now here what is the size 1, 2, 6, 8 I will do one thing here this array 1, 2, 6, 8 I will take this array 7, 8, 12, 27, 88 7, 8, 12, 27, 88 7, 8, 12, 27, 88 I have taken this array 7, 8, 12, 27, 88 ok so here this array I have to insert at index number 3 ok so what I want that the 88 array it will go one step ahead so if I start counting from here 0, 1, 2, 3, 4 so here my size is 5 so I will do 5 so what I will do I will start with size minus 1 so I will say i value size minus 1 and I will say that my arr i it will shrink arr i plus 1 ok so arr i plus 1 is equal to arr i I have to do and here I have to do arr i means I want that the 88 means I am starting with size minus 1 my size is 5 means I am starting with 4 so 0, 1, 2, 3, 4 I want that the index number 4 it will go ahead because there is space in the array if there was no space then this thing would have returned it so 88 will shrink and move ahead then I will do the same for 27 I will do the same for 12 and how long will I do this work till the time my index where I want to insert 0, 1, 2, 3 means I want to insert here till it shrinks now as soon as my index shrinks so I will do here i is greater than equal to index i is greater than equal to index as soon as it will come to index I will stop shrinking and finally what I will do I will say now put that element instead of a index what you do now put that element instead of a index and along with that I am writing arr here and along with that return uh return index or return 1 1 for success okay, done your array we have successfully inserted it okay, so 0, 1, 2, 3 if I want to insert on 3 then here I want to see 45, 27 and 88 will be ahead okay so now what I will do here I will also plus the size so I will do here size plus equals to 1 because the size has increased earlier it had 5 elements now it has 6 elements okay so after inserting I will increase the size and after increasing the size I will run the display and after running the display I will see my array how it looks after insertion and here comes a problem uh 1, 2, 7 1, 2, 6 and 78 okay, so I have written here 7, 8, 12 uh 27 I think I am making some mistake somewhere I am making some mistake let me spot it okay, the mistake I am making here I should have written I minus minus I had written I plus plus so let's run it and see here our element has been inserted so here it was 7, 8, 12, 27, 88 now after 7, 8, 12 it has become 45 that is, we have 45 on index number 3 so the insertion we just saw its code is here this is the traversal code okay and here is the insertion code so I will write here traversal code for traversal I will write and I will write code for insertion, okay now sometimes what happens is when you are inserting in an array then you have to insert in a sorted array like I will tell you 1, 2, 3, 4, I know 1, 2, 3, 4, 5 uh 67, 88, 9, this is and you have to insert 20 in it so if you want to keep this array sorted so what we have to do where we have to insert 20 we have to insert 20 here okay, after 5 so in that case what you have to do in that case you have to find the index to insert after that you have to insert now you can search this index by binary search and then you can drag all the elements and then you can insert here so you will get to see a lot of variations of this problem in the market, okay so now what is the efficient way to do this, all this you can think about it later you will get to see a lot of modified problems you will be able to do all that this was our simple insertion okay, now here this was our basic insertion in the array and this was our traversal in the array I hope you all understood I wrote display function to show the array to show the array that given an array, given the size you have to print all the elements so here I have printed the elements of the array now suppose I want to insert on index 1 means I want to see 7 45 and then 8 so I can do this too so see 7, 45, 8, 12 27 and 88, okay now you have to do one thing here there is a quiz for you and the quiz is that you have to modify this code so that you also tell whether the insertion was successful or not if the insertion was successful then you have to display the array otherwise you don't have to display the array so I give you this code as a challenge that you implement this code and show me that if the insertion is successful then what you will do that you will print the array the new array, the modified array otherwise you will say that insertion failed and you just write this much and that much will be done I hope you all understood what I have tried to explain to you so guys I hope that this course will be very helpful for you many people have accessed the playlist I am so happy to see that and many of you have also downloaded the notes I am very happy about that if I am making something then you have to download it I am very happy about every single download so everyone download it, I have written notes for you download it, read it and if you have any issue then you can watch the video so it's not like you have only videos you have notes, you have videos I also do practice questions and I have also uploaded one note notebook so it's not like I am only making you do it here and not giving you the notebook this notebook is also available with you so you can take full advantage of it and you will get all these questions so I hope that you are finding this course very helpful if you are finding this course helpful then I would like you to share it with your friends on whatsapp group and to everyone who shared the course on Instagram with screenshots of this playlist first of all thank you and second thing is that I have mentioned everyone in my story so if you are not on Instagram then you can follow me I have given the link in description and pinned comment so if you like this video then do like it thank you so much guys for watching this video and I will see you next time"
+}
