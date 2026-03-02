@@ -202,3 +202,5 @@ B.Tech AI & ML
 Aspiring AI/ML Engineer  
 
 🚀 Passionate about AI Systems, RAG Architecture & Real-World ML Deployment
+
+HUgging face demo link -: https://huggingface.co/spaces/Shiivamm/Rag_based_ai_teaching_assistant
