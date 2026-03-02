@@ -1,62 +1,87 @@
-# 🎓 RAG-Based AI Teaching Assistant (Video Pipeline Version)
+# 🎓 RAG-Based AI Teaching Assistant (Video + YouTube Supported)
 
-An AI-powered Retrieval-Augmented Generation (RAG) system that processes educational videos and enables contextual question answering.
+An AI-powered Retrieval-Augmented Generation (RAG) system that processes educational videos (Local or YouTube) and enables contextual question answering using vector search and LLMs.
 
-This project focuses on building a complete backend pipeline for:
-
-- 🎥 Video Processing
-- 🎙 Speech-to-Text (Whisper)
-- 📄 JSON Preprocessing
-- 🧠 Embedding Generation
-- 🔎 FAISS Vector Indexing
-- 🤖 LLM-based Question Answering
+This project demonstrates a complete end-to-end backend RAG pipeline built from scratch.
 
 ---
 
-## 🚀 Project Overview
+## 🚀 Features
 
-This system performs the following steps:
-
-1. Takes uploaded video/audio input
-2. Converts speech to text using Whisper
-3. Stores transcript in structured JSON format
-4. Generates embeddings for text chunks
-5. Builds a FAISS vector index
-6. Retrieves relevant context
-7. Uses an LLM to generate answers
-
-This project demonstrates a real-world RAG architecture implementation.
+✅ Process Local Video Files  
+✅ Process YouTube Video Links  
+✅ Automatic Audio Extraction  
+✅ Whisper Speech-to-Text Transcription  
+✅ JSON Structuring & Chunking  
+✅ Embedding Generation (Sentence Transformers)  
+✅ FAISS Vector Index Creation  
+✅ Context Retrieval  
+✅ LLM-Based Answer Generation  
+✅ CLI-Based Interactive Assistant  
 
 ---
 
-## 🧠 Architecture
+## 🧠 How It Works
 
-Video Input
-↓
+### Step 1: Video Input
+User can:
+- Provide local video file path
+- Provide YouTube video link
+
+### Step 2: Audio Extraction
+Video is converted into audio format.
+
+### Step 3: Transcription
+Whisper model converts speech into text.
+
+### Step 4: Preprocessing
+Transcript is:
+- Cleaned
+- Chunked
+- Converted into structured JSON
+
+### Step 5: Embeddings
+Text chunks are converted into embeddings using SentenceTransformers.
+
+### Step 6: FAISS Indexing
+Vector database is built for fast similarity search.
+
+### Step 7: Question Answering
+User asks questions.
+System retrieves relevant context.
+LLM generates final response.
+
+---
+
+## 🧠 System Architecture
+
+Video (Local / YouTube)
+        ↓
+Audio Extraction
+        ↓
 Whisper Transcription
-↓
-JSON Processing
-↓
+        ↓
+JSON Chunking
+        ↓
 Embedding Generation
-↓
-FAISS Index Creation
-↓
+        ↓
+FAISS Vector Index
+        ↓
 Context Retrieval
-↓
+        ↓
 LLM Response
-
-
 
 ---
 
 ## 🛠 Tech Stack
 
 - Python
-- Whisper
+- OpenAI Whisper
 - SentenceTransformers
-- FAISS
+- FAISS (Vector Search)
 - NumPy
 - Hugging Face Inference API
+- yt-dlp (for YouTube download)
 
 ---
 
@@ -67,58 +92,106 @@ LLM Response
 ├── mp3_to_json.py
 ├── preprocess_json.py
 ├── data/
+│ ├── dsa/
+│ └── ...
 ├── audios/
 ├── videos/
+├── youtube/
 └── requirements.txt
 
 ---
 
 ## ▶ How to Run
 
-1. Install dependencies:
+### 1️⃣ Install Dependencies
 pip install -r requirements.txt
 
 
-2. Process video:
+---
 
-python process_uploaded_video.py
+### 2️⃣ Run the Assistant
 
-
-3. Generate embeddings & FAISS index:
-
-python build_faiss_index.py
-
-
-4. Run question-answer pipeline:
 
 python process_incoming.py
 
+
+You will see:
+
+
+1 - DSA Course
+2 - Process New Video (Local or YouTube)
+3 - Ask from Uploaded Video
+4 - Exit
+
+---
+
+### 🎥 To Process Local Video
+
+Choose option:
+
+Then enter:
+- Local video file path
+
+Example:Example: https://youtube.com/watch?v=example
+
+
+System will:
+- Download video
+- Extract audio
+- Transcribe
+- Build embeddings
+- Create FAISS index
+
+---
+
+### ❓ Ask Questions
+
+Choose option:
+
+
+3
+
+
+Then enter your question related to the processed video.
 
 ---
 
 ## 🔐 Environment Setup
 
-Set your Hugging Face token:
+Set your Hugging Face API token:
 
-Windows:
+### Windows
+
 
 setx HF_TOKEN "your_token_here"
 
 
-Linux/Mac:
+### Linux / Mac
+
 
 export HF_TOKEN="your_token_here"
 
 
 ---
 
-## 📌 Key Learnings
+## 📌 Key Highlights
 
-- End-to-end RAG implementation
-- Vector database engineering
-- Multimedia AI pipeline design
-- Production-style modular architecture
+- Real-world RAG architecture implementation
+- Vector database engineering using FAISS
+- Multimedia AI processing pipeline
+- YouTube + Local Video integration
+- Modular production-style codebase
 - Secure API handling
+
+---
+
+## 📈 Future Improvements
+
+- Web-based UI (Gradio / FastAPI)
+- Multi-video knowledge base
+- Persistent vector storage
+- Deployment on Hugging Face Spaces
+- Streamlit interface
 
 ---
 
@@ -126,4 +199,6 @@ export HF_TOKEN="your_token_here"
 
 **Shivam Kumar**  
 B.Tech AI & ML  
-Aspiring AI/ML Engineer
+Aspiring AI/ML Engineer  
+
+🚀 Passionate about AI Systems, RAG Architecture & Real-World ML Deployment
